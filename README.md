@@ -20,49 +20,49 @@ A Udacity virtual machine was used, skipping this step as authentication was alr
 - Created an AutoML experiment with the Bank Marketing dataset, uploaded to the workspace with column `y` selected as the target.
 - Used a Standard_DS3_V2 virtual machine with a minimum of 1 node.
 - Configured the experiment for classification, resulting in a Voting Ensemble as the best model.
-
+#### Registered dataset
 ![01_registered_dataset.png](/images/01_registered_dataset.png)
-
+#### Completed AutoML experiment
 ![02.1_completed_automl_experiment.png](/images/02.1_completed_automl_experiment.png)
-
+#### Best model
 ![02.2_best_model.png](/images/02.2_best_model.png)
 
 ![02.3_best_model.png](/images/02.3_best_model.png)
 
 ### Deploy the Model
 - Deployed the Voting Ensemble model using Azure Container Instance (ACI) with authentication enabled.
-
+#### Deloy the model
 ![03_deloy_the_model.png](/images/03_deloy_the_model.png)
 
 ### Enable Logging
 Application Insights is actived and Logs script is run . 
-
+#### Run logs file
 ![04.1_run_logs_file.png](/images/04.1_run_logs_file.png)
-
+#### Application insight enable
 ![04.2_application_insight_running.png](/images/04.2_application_insight_running.png)
 
 ### Swagger Documentation
 To use Swagger for model consumption, downloaded the `swagger.json` file and ran the `swagger.sh` and `serve.py` scripts.
-
+#### Swagger page
 ![05_swagger_page.png](/images/05_swagger_page.png)
 
 ### Consume Model Endpoints
 Updated the `endpoint.py` script with the `scoring_uri` and authentication key to interact with the API.
-
+#### Interact with endpoint
 ![06.1_interact_with_endpoint.png](/images/06.1_interact_with_endpoint.png)
 
 ### Benchmark
 Ran `benchmark.sh` to test the model's performance with Apache Benchmark (optional).
-
+#### Benchmark run
 ![06.2_benchmark_run.png](/images/06.2_benchmark_run.png)
 
 ### Create and Publish a Pipeline
 Used a Jupyter notebook to create, publish, and consume a pipeline for the dataset.
-
+#### Create pipeline
 ![07.1_create_pipeline.png](/images/07.1_create_pipeline.png)
-
+#### Pipeline status and REST endpoint
 ![07.2_pipeline_endpoint_active.png](/images/07.2_pipeline_endpoint_active.png)
-
+#### Dataset and AutoML in pipeline
 ![07.3_dataset_and_automl_in_pipeline.png](/images/07.3_dataset_and_automl_in_pipeline.png)
 
 ## Screen Recording
