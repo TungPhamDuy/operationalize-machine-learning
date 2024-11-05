@@ -33,7 +33,7 @@ Successfully registered the dataset for use in the AutoML process.
 #### Completed AutoML Experiment
 Image showing that the AutoML experiment has completed successfully.
 ![02.1_completed_automl_experiment.png](/images/02.1_completed_automl_experiment.png)
-[02.1_completed_automl_experiment_2.png](/images/02.1_completed_automl_experiment_2.png)
+![02.1_completed_automl_experiment_2.png](/images/02.1_completed_automl_experiment_2.png)
 
 #### Best Model
 Images showing the best model, Voting Ensemble, selected from the AutoML experiment.
