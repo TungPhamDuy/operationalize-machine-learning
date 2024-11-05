@@ -85,7 +85,7 @@ The DetailRun Widget provides a comprehensive view of the pipeline run’s statu
 ![07.4_rundetails_widget.png](/images/07.4_rundetails_widget.png)
 
 ## Screen Recording
-Link youtube to the screencast: [Watch on YouTube](https://youtu.be/qFy1EYhARgw)
+Link youtube to the screencast: [Watch on YouTube](https://youtu.be/Pso-4lLe4kw)
 
 
 ## Standout Suggestions
