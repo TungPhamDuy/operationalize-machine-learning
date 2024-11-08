@@ -1,7 +1,7 @@
 # Operationalizing Machine Learning
 
 This project is part of the Udacity Azure ML Nanodegree. It demonstrates how to configure, deploy, and consume a machine learning model in a cloud-based Azure environment. The project also includes steps to create, publish, and consume a machine learning pipeline.
-
+https://docs.google.com/document/d/17M5EjaeAHAGzxq6Qh7nGbqGpl0Hd1NWCl8mIR1RVISE/edit?usp=sharing 
 ## Project Overview
 This project focuses on a bank marketing campaign, where a model is trained using Azure's AutoML. The trained model is then consumed through a REST endpoint, allowing for easy integration and testing with real-world data. Additionally, a pipeline is created to automate the workflow, which is essential for streamlining model retraining and deployment, ensuring consistency and efficiency in the production environment.
 
